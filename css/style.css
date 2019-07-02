@@ -1,0 +1,794 @@
+body {
+    font-size: 100%;
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-text-size-adjust: 100%;
+    font-family: "Roboto", sans-serif;
+}
+
+h1,
+h2,
+h3 {
+    font-family: "Roboto", sans-serif;
+}
+
+h1 {
+    font-size: 8.1225rem;
+}
+
+h2 {
+    font-size: 4.525rem;
+}
+
+h3 {
+    font-size: 4.025rem;
+}
+
+h4 {
+    font-size: 1.525rem;
+}
+
+a {
+    text-decoration: none;
+}
+
+.hr-highlight-blue {
+    background: #3498db;
+    width: 15%;
+    height: 4px;
+    border-radius: 3px;
+    text-align: center;
+}
+
+section {
+    padding: 120px;
+}
+
+
+/*ion size*/
+
+#main-header {
+    background: transparent;
+}
+
+#main-header .icon {
+    font-size: 40px;
+    vertical-align: middle;
+    height: 45px;
+    padding: 0 1.5rem 0 1.5rem;
+}
+
+
+/*Navbar*/
+
+.navbar {
+    padding: 20px 10px;
+    background-color: white;
+    box-shadow: 0 2px 6px 0 rgba(0, 0, 0, 0.04), 0 6px 12px rgba(0, 0, 0, 0.02);
+}
+
+.navbar ul li a {
+    font-size: 14px;
+    font-weight: 700;
+    vertical-align: middle;
+}
+
+.navbar .nav-link {
+    padding-right: 1.5rem !important;
+    padding-left: 1.5rem !important;
+}
+
+.navbar-brand {
+    font-size: 20px;
+}
+
+.navbar-toggler {
+    border: 0px;
+    padding: 0.3125rem 0rem;
+}
+
+.navbar .navbar-toggler .icon {
+    font-size: 40px;
+}
+
+.navbar-toggler:focus,
+.navbar-toggler:active {
+    outline: none;
+    box-shadow: none;
+}
+
+.navbar ion-icon {
+    margin-top: 7px;
+    font-size: 35px;
+}
+
+
+/*Body --- Classes*/
+
+
+/*Content*/
+
+.content {
+    text-align: left;
+}
+
+.sub-content-lg {
+    font-weight: 350;
+    line-height: 1.6;
+}
+
+.sub-content-sm {
+    font-weight: 350;
+    font-size: 1.45rem;
+    line-height: 1.6;
+}
+
+.hero-title {
+    font-weight: 650;
+    line-height: 0.9;
+}
+
+.subscript-title {
+    font-weight: 500;
+    margin-left: 5px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+
+.slogan-title {
+    font-size: 2.765rem;
+    font-weight: 550;
+    line-height: 1.4;
+}
+
+.hero-content {
+    font-weight: 350;
+    line-height: 1.6;
+}
+
+.heading-title {
+    font-weight: 1000;
+    line-height: 5.5rem;
+    padding: 2% 0 5% 0;
+    letter-spacing: 1px;
+}
+
+.subheading-title {
+    font-weight: 300;
+}
+
+.head-content {
+    padding-bottom: 100px;
+}
+
+.app-content {
+    padding: 100px 0px;
+}
+
+.app-sub-content {
+    padding-bottom: 120px;
+    margin: 0 15% 0 15%;
+}
+
+.description-box {
+    padding: 0;
+}
+
+.description-txt {
+    font-size: 1.25rem;
+    line-height: 1.4;
+}
+
+
+/*Section --- Landing - Classes*/
+
+#landing {
+    overflow: hidden;
+    padding: 60px 0px;
+    z-index: 100;
+}
+
+.container-land {
+    width: 100%;
+    height: 100vh;
+}
+
+.landing-bg {
+    background-size: cover;
+    max-width: 100%;
+    height: 100%;
+}
+
+.hero-section {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+#landing .circle-lg {
+    background-color: #3498db;
+    position: absolute;
+    border-radius: 50%;
+    height: auto;
+    width: 20%;
+    padding-top: 20%;
+    opacity: 0.8;
+    right: 10%;
+    bottom: -38%;
+    animation: obj-rise-v 3.5s infinite;
+    transition: all 1s ease-out;
+}
+
+#landing .circle-lg-2 {
+    background-color: #3498db;
+    position: absolute;
+    border-radius: 50%;
+    height: auto;
+    width: 12%;
+    padding-top: 12%;
+    opacity: 0.8;
+    right: 36%;
+    bottom: -38%;
+    animation: obj-rise-v 3.5s infinite;
+    animation-delay: 0.5s;
+}
+
+#landing .circle-md {
+    background-color: #3498db;
+    position: absolute;
+    border-radius: 50%;
+    height: auto;
+    width: 8%;
+    padding-top: 8%;
+    opacity: 0.8;
+    right: 28.5%;
+    bottom: -38%;
+    z-index: 100;
+    animation: obj-rise-v 3.5s infinite;
+    animation-delay: 1s;
+}
+
+#landing .circle-md-2 {
+    background-color: #3498db;
+    position: absolute;
+    border-radius: 50%;
+    height: auto;
+    width: 7.3%;
+    padding-top: 7.3%;
+    opacity: 0.8;
+    right: 30%;
+    bottom: -38%;
+    z-index: 100;
+    animation: obj-rise-v 3.5s infinite;
+    animation-delay: 1.1s;
+}
+
+#landing .circle-md-3 {
+    background-color: #3498db;
+    position: absolute;
+    border-radius: 50%;
+    height: auto;
+    width: 7.7%;
+    padding-top: 7.7%;
+    opacity: 0.8;
+    right: 38.5%;
+    bottom: -38%;
+    z-index: 100;
+    animation: obj-rise-v 3.5s infinite;
+    animation-delay: 1.2s;
+}
+
+#landing .circle-md-4 {
+    background-color: #3498db;
+    position: absolute;
+    border-radius: 50%;
+    height: auto;
+    width: 6.5%;
+    padding-top: 6.5%;
+    opacity: 0.8;
+    right: 41%;
+    bottom: -38%;
+    z-index: 100;
+    animation: obj-rise-v 3.5s infinite;
+    animation-delay: 1.3s;
+}
+
+#landing .circle-md-5 {
+    background-color: #3498db;
+    position: absolute;
+    border-radius: 50%;
+    height: auto;
+    width: 6.1%;
+    padding-top: 6.1%;
+    opacity: 0.8;
+    right: 35.5%;
+    bottom: -38%;
+    z-index: 100;
+    animation: obj-rise-v 3.5s infinite;
+    animation-delay: 1.4s;
+}
+
+#landing .circle-md-6 {
+    background-color: #3498db;
+    position: absolute;
+    border-radius: 50%;
+    height: auto;
+    width: 7.8%;
+    padding-top: 7.8%;
+    opacity: 0.8;
+    right: 18%;
+    bottom: -38%;
+    z-index: 100;
+    animation: obj-rise-v 3.5s infinite;
+    animation-delay: 1.9s;
+}
+
+#landing .circle-sm {
+    background-color: #3498db;
+    position: absolute;
+    border-radius: 50%;
+    height: auto;
+    width: 4.1%;
+    padding-top: 4.1%;
+    opacity: 0.8;
+    right: 30%;
+    bottom: -38%;
+    z-index: 100;
+    animation: obj-rise-v 3.5s infinite;
+    animation-delay: 2s;
+}
+
+#landing .circle-sm-2 {
+    background-color: #3498db;
+    position: absolute;
+    border-radius: 50%;
+    height: auto;
+    width: 3.9%;
+    padding-top: 3.9%;
+    opacity: 0.8;
+    right: 24.5%;
+    bottom: -38%;
+    z-index: 100;
+    animation: obj-rise-v 3.5s infinite;
+    animation-delay: 2.1s;
+}
+
+#landing .circle-sm-3 {
+    background-color: #3498db;
+    position: absolute;
+    border-radius: 50%;
+    height: auto;
+    width: 3.8%;
+    padding-top: 3.8%;
+    opacity: 0.8;
+    right: 45%;
+    bottom: -38%;
+    z-index: 100;
+    animation: obj-rise-v 3.5s infinite;
+    animation-delay: 2.2s;
+}
+
+#landing .circle-sm-4 {
+    background-color: #3498db;
+    position: absolute;
+    border-radius: 50%;
+    height: auto;
+    width: 3.6%;
+    padding-top: 3.6%;
+    opacity: 0.8;
+    right: 44.5%;
+    z-index: 100;
+    bottom: -38%;
+    animation: obj-rise-v 3.5s infinite;
+    animation-delay: 2.3s;
+}
+
+#landing .circle-sm-5 {
+    background-color: #3498db;
+    position: absolute;
+    border-radius: 50%;
+    height: auto;
+    width: 3.4%;
+    padding-top: 3.4%;
+    opacity: 0.8;
+    right: 38.5%;
+    bottom: -38%;
+    z-index: 100;
+    animation: obj-rise-v 3.5s infinite;
+    animation-delay: 2.4s;
+}
+
+#landing .circle-sm-6 {
+    background-color: #3498db;
+    position: absolute;
+    border-radius: 50%;
+    height: auto;
+    width: 3%;
+    padding-top: 3%;
+    opacity: 0.8;
+    right: 47.5%;
+    bottom: -38%;
+    z-index: 100;
+    animation: obj-rise-v 3.5s infinite;
+    animation-delay: 2.6s;
+}
+
+#landing .square-s {
+    background-color: #3498db;
+    position: relative;
+    border-radius: 20%;
+    height: auto;
+    width: 2.8%;
+    padding-top: 2.8%;
+    opacity: 0.8;
+    right: 10%;
+    top: 100%;
+    z-index: 100;
+    animation: obj-rise-v 3.5s infinite;
+}
+
+#landing .square-m {
+    background-color: #3498db;
+    position: absolute;
+    border-radius: 20%;
+    height: 300px;
+    width: 300px;
+    opacity: 0.8;
+    left: 3%;
+    top: 20%;
+    animation: obj-slide-h 5s infinite;
+}
+
+#landing .rect-m-l {
+    background-color: #3498db;
+    position: absolute;
+    border-radius: 20%;
+    height: 250px;
+    width: 150px;
+    opacity: 0.8;
+    right: 20%;
+    top: 140%;
+    animation: obj-slide-h 5s infinite;
+}
+
+#landing .square-l {
+    background-color: #3498db;
+    position: absolute;
+    overflow: hidden;
+    border-radius: 20%;
+    height: 350px;
+    width: 350px;
+    opacity: 0.2;
+    left: 50%;
+    top: 0%;
+    animation: obj-slide-v 5s infinite;
+}
+
+
+/*Section --- Landing - Animations*/
+
+@keyframes obj-slide-h {
+    0% {
+        transform: translateX(-30px);
+    }
+    50% {
+        transform: translateX(30px);
+    }
+    100% {
+        transform: translateX(-30px);
+    }
+}
+
+@keyframes obj-slide-v {
+    0% {
+        transform: translateY(-100px);
+    }
+    50% {
+        transform: translateY(100px);
+    }
+    100% {
+        transform: translateY(-100px);
+    }
+}
+
+@keyframes obj-rise-v {
+    0% {
+        transform: translateY(0) rotate(0deg);
+        opacity: 1;
+    }
+    100% {
+        transform: translateY(-1000px) rotate(720deg);
+        opacity: 0;
+    }
+}
+
+
+/*Section --- Mission - Classes*/
+
+#mission {
+    position: relative;
+    padding: 120px 0px;
+    background: #e9ecef;
+    z-index: 101;
+    overflow: hidden;
+}
+
+#mission .sub-content-lg {
+    font-weight: 350;
+    margin-right: 30%;
+    line-height: 2.325rem;
+}
+
+#mission .circle-m-lg {
+    position: absolute;
+    border-radius: 50%;
+    background-color: transparent;
+    border: 3px solid #3498db;
+    height: 600px;
+    width: 600px;
+    opacity: 0.8;
+    left: -100px;
+    bottom: 170px;
+    transition: all 1s ease-out;
+    z-index: 0;
+}
+
+
+/*Section --- Challenges*/
+
+#challenges {
+    display: block;
+    padding: 120px 0px;
+    z-index: 102;
+}
+
+#challenges .content {
+    max-width: 80%;
+    margin: auto;
+}
+
+#challenges .title-section {
+    position: relative;
+    display: flex;
+    z-index: 1;
+    align-items: start;
+    padding: 0;
+    margin: 0px 0px 10% 0px
+}
+
+#challenges .heading-title {
+    justify-content: center;
+}
+
+#challenges .icon {
+    font-size: 40px;
+    margin-bottom: 0.5rem;
+    text-align: center;
+}
+
+#challenges .subtitle {
+    margin-bottom: 0.5rem;
+    text-align: center;
+}
+
+#challenges .description {
+    text-align: center;
+}
+
+.challenge-canvas {
+    position: relative;
+    display: flex;
+    z-index: 1;
+    align-items: start;
+    padding: 0
+}
+
+.img-canvas {
+    width: 49%;
+    position: relative;
+    z-index: 2;
+    -webkit-transform: translateY(5%);
+    transform: translateY(5%);
+    -webkit-box-shadow: 0 60px 120px rgba(0, 0, 0, 0.6);
+    box-shadow: 0 60px 120px rgba(0, 0, 0, 0.6);
+}
+
+.img-canvas .challenge-img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+.challenge-canvas .media {
+    width: 48.7179487179487%
+}
+
+.challenge-canvas.mirrored .media {
+    order: 1
+}
+
+.challenge-canvas.mirrored .prose {
+    order: 2;
+    text-align: center;
+}
+
+[name="challenge-header"] .img-canvas {
+    width: 49%;
+    position: relative;
+    z-index: 2;
+    -webkit-transform: translateY(5%);
+    transform: translateY(5%);
+    -webkit-box-shadow: 0 60px 120px rgba(0, 0, 0, 0.6);
+    box-shadow: 0 60px 120px rgba(0, 0, 0, 0.6);
+}
+
+[name="challenge-header"] .challenge-content-area {
+    background: #3498db;
+    color: white;
+    width: 51%;
+    z-index: 1;
+    position: relative;
+}
+
+[name="challenge-header"] .challenge-content-area .fill-area {
+    padding: 17% 0 19%;
+}
+
+#challenges .fill-area .content {
+    margin-right: calc((100vw - calc(992 * 1px)) / 2);
+    margin-left: 18%;
+}
+
+@media (max-width: 1142px) {
+    [name="challenge-header"] .challenge-content-area .content {
+        margin-right: calc((100vw * 0.13) / 2);
+    }
+}
+
+@media (max-width: 1099px) {
+    [name="challenge-header"] .challenge-content-area .content {
+        margin-left: 15%;
+    }
+}
+
+@media (max-width: 850px) {
+    [name="challenge-header"] .challenge-content-area .content {
+        margin-left: 11%;
+    }
+}
+
+[name="challenge-header"] p {
+    font-size: 1.1875rem;
+    line-height: 1.6;
+}
+
+[name="challenge-header"] .challenge-content-area .fill-area:before {
+    content: "";
+    display: block;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 10px;
+    background: #3498db;
+    height: 100%;
+    -webkit-transform: translateX(-100%);
+    transform: translateX(-100%);
+    -webkit-box-shadow: 2px 0 0 #3498db;
+    box-shadow: 2px 0 0 #3498db;
+    width: 13%;
+}
+
+@media (max-width: 760px) {
+    [name="challenge-header"] .challenge-canvas {
+        display: block;
+    }
+    [name="challenge-header"] .img-canvas .challenge-img {
+        width: calc(100vw - 7.5%);
+    }
+    [name="challenge-header"] .challenge-content-area {
+        -webkit-box-sizing: border-box;
+        box-sizing: border-box;
+        width: calc(100% - 7.5%);
+        margin-left: 7.5%;
+    }
+    [name="challenge-header"] .challenge-content-area .fill-area {
+        padding: 4% 0 19%;
+    }
+    [name="challenge-header"] .challenge-content-area .fill-area:before {
+        display: none;
+    }
+    [name="challenge-header"] .challenge-content-area .fill-area:after {
+        content: "";
+        display: block;
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 50px;
+        background: #3498db;
+        height: 70px;
+        height: 33%;
+        -webkit-transform: translateY(-100%);
+        transform: translateY(-100%);
+        width: 100%;
+        -webkit-box-shadow: 0 2px 0 #3498db;
+        box-shadow: 0 2px 0 #3498db;
+    }
+    [name="challenge-header"] .challenge-content-area .content {
+        margin: 0;
+        margin-right: 10%;
+        margin-left: 7%;
+    }
+}
+
+@media (max-width: 760px) and (min-width: 570px) {
+    [name="challenge-header"] .challenge-content-area .fill-area {
+        padding: 0 0 13%;
+    }
+    [name="challenge-header"] .challenge-content-area .fill-area:after {
+        height: 60%;
+    }
+}
+
+
+/*Section --- Vision - Classes*/
+
+#vision {
+    padding: 120px 0;
+    background: #f8f8f8;
+}
+
+
+/*Section --- Initiatives - Classes*/
+
+#initiatives {
+    padding: 120px 0 0 0;
+}
+
+#initiatives .subscript-title {
+    padding-bottom: 2%;
+}
+
+#initiatives .heading-title {
+    padding: 0% 0 5% 0;
+}
+
+#initiatives .sub-content-lg {
+    display: flex;
+    text-align: left;
+    align-content: center;
+    vertical-align: middle;
+    align-items: center;
+    align-self: center;
+    margin: 0 7.5%;
+}
+
+
+/*Section --- Team - Classes*/
+
+#team {
+    padding: 120px 0 120px 0;
+    background: #f8f8f8;
+}
+
+
+/*Section --- Partners - Classes*/
+
+#partners {
+    padding: 120px 0 120px 0;
+}
+
+
+/*Section --- Footer - Classes*/
+
+#footer {
+    padding: 120px 0 120px 0;
+}
+
+#footer .footer-brand {
+    padding-bottom: 5%;
+}
+
+.footer-colophon {
+    background-color: #f3f3f3;
+}
