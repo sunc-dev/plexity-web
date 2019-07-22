@@ -212,12 +212,12 @@ a {
 
 
 .btn-matte a  {
-    color: #F24405;
+    color: #fff;
     font-weight: 700;
 }
 
 .btn-main {
-    color: #F24405;
+    background: #F24405;
     border-color: #F24405;
     font-size: 1.125rem;
     width: 300px;
@@ -789,7 +789,7 @@ a {
 
 #story {
     display: block;
-    padding: 120px 0px;
+    padding: 0;
     z-index: 102;
 }
 
@@ -1019,9 +1019,9 @@ a {
 }
 
 
-/*Section --- Team - Classes*/
+/*Section --- BLC - Classes*/
 
-#heroes {
+#blc {
     padding: 120px 0 120px 0;
     background: #f8f8f8;
 }
