@@ -38,7 +38,10 @@ h4 {
 
 a {
     text-decoration: none;
+    color: #000;
 }
+
+
 
 .hr-highlight-blue {
     background: #3498db;
@@ -198,25 +201,30 @@ a {
     line-height: 1.6;
 }
 
+.content-matte {
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    min-height: 30px;
+}
 
 /*Buttons and click items*/
+
+
+.btn-matte a  {
+    color: #F24405;
+    font-weight: 700;
+}
 
 .btn-main {
     color: #F24405;
     border-color: #F24405;
     font-size: 1.125rem;
     width: 300px;
-}
-
-.btn-main .txt {
     text-transform: uppercase;
-    font-size: 1.125rem;
-    width: 300px;
 }
 
 
-
-}
 
 .btn-circle {
     border-radius: 50%;
@@ -748,19 +756,25 @@ a {
 
 /*Section --- features - Classes*/
 
-#about-detail {
+#challenges {
     padding: 120px 0 0 0;
 }
 
-#about-detail .subscript-title {
+#challenges .subscript-title {
     padding-bottom: 2%;
 }
 
-#about-detail .heading-title {
+#challenges .heading-title {
     padding: 0% 0 5% 0;
 }
 
-#about-detail .sub-content-lg {
+#challenges .icon {
+    font-size: 40px;
+    margin-bottom: 0.5rem;
+    text-align: center;
+}
+
+#challenges .sub-content-lg {
     display: flex;
     text-align: left;
     align-content: center;
