@@ -201,6 +201,12 @@ a {
     min-height: 30px;
 }
 
+/*Alignment Elements */
+
+.tc {
+    text-align: center;
+}
+
 
 /*Buttons and click items*/
 
@@ -1001,9 +1007,20 @@ a {
 /*Section --- BLC - Classes*/
 
 #blc {
+    
     padding: 120px 0 120px 0;
     background: #f8f8f8;
 }
+
+.grid-wrap-m {
+    display: grid;
+    justify-items: center;
+
+}
+
+
+
+
 
 
 /*Section --- Partners - Classes*/
